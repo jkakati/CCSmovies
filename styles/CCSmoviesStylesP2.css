@@ -1,0 +1,97 @@
+/* @import "compass/css3"; */
+
+body {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    text-decoration: none;
+    background: rgb(218, 206, 206);
+}
+
+.movies {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+    list-style: none;
+
+    -webkit-flex-flow: row wrap;
+    background: gray;
+    /* justify-content: flex-end; */
+    align-items: center;
+    min-height: 500px;
+    /* max-height: 20px;
+    min-width: 1000px; 
+    max-width: 1500px; */
+    max-width: 1000px;
+}
+
+.poster {
+    min-width: 320px;
+    min-height: 470px;
+    display: flex;
+    margin: 10px;
+
+    /* background: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    max-width: 50%;
+    min-height: 420px;
+    margin: 10px;
+    /* background: green; */
+    color: white;
+    padding-left: 20px;
+}
+
+.title {
+    /* background: red; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.year {
+    /* background: orange; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.director {
+    /* background: black; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.overview {
+    /* background: darkblue; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.genre {
+    /* background: darkslateblue; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.url {
+    /* text-decoration: none; */
+    /* background: darkred; */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
